@@ -1,0 +1,44 @@
+.container {
+    border: 1px solid #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container-lg {
+    border: 1px solid #f3f3f3;
+    max-width: 1540px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container-fluid {
+    border: 1px solid #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.row {
+    padding: 0 0 0.8rem 0;
+}
+
+.row.justify-content-center {
+    background: #fbfbfd;
+    margin: 8px 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.modal-body .row.justify-content-center {
+    background: none;
+}
+
+.col.justify-content-center {
+    background: #fbfbfd;
+    margin: 8px 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.col-buttons {
+    align-items: center;
+}
